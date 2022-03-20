@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
+.gridContainer {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.gridItem {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.gridItem img {
+  width: 100%;
+  max-height: 200px;
+}
